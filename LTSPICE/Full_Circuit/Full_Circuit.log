@@ -1,13 +1,13 @@
 LTspice 26.0.1 for Windows
 Circuit: D:\Sem4\EW1\EW2_Project_1\LTSPICE\Full_Circuit\Full_Circuit.net
-Start Time: Tue Jan 20 12:57:28 2026
+Start Time: Fri Jan 23 04:56:39 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.159 seconds.
+Total elapsed time: 0.179 seconds.
 
 Files loaded:
 D:\Sem4\EW1\EW2_Project_1\LTSPICE\Full_Circuit\Full_Circuit.net
@@ -16,4 +16,22 @@ C:\Users\Ravi\AppData\Local\LTspice\lib\cmp\standard.bjt
 D:\Sem4\EW1\EW2_Project_1\LTSPICE\Full_Circuit\UA741.301
 D:\Sem4\EW1\EW2_Project_1\LTSPICE\Full_Circuit\tip31a.lib
 D:\Sem4\EW1\EW2_Project_1\LTSPICE\Full_Circuit\tip32a.lib
+
+Fourier components of V(out)
+N-Period=0
+DC component:0.346139
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+02	 8.681e-02	 1.000e+00	  -72.07°	    0.00°
+    2   	 2.000e+02	 1.652e-01	 1.903e+00	  -54.16°	   17.92°
+    3   	 3.000e+02	 2.277e-01	 2.623e+00	  -36.27°	   35.81°
+    4   	 4.000e+02	 2.682e-01	 3.089e+00	  -18.42°	   53.66°
+    5   	 5.000e+02	 2.828e-01	 3.257e+00	   -0.63°	   71.44°
+    6   	 6.000e+02	 2.700e-01	 3.110e+00	   17.02°	   89.10°
+    7   	 7.000e+02	 2.311e-01	 2.663e+00	   34.43°	  106.51°
+    8   	 8.000e+02	 1.700e-01	 1.958e+00	   51.23°	  123.30°
+    9   	 9.000e+02	 9.258e-02	 1.067e+00	   65.71°	  137.78°
+Partial Harmonic Distortion: 723.855096%
+Total Harmonic Distortion:   5065.140843%
 
